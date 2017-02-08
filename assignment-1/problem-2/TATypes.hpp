@@ -5,6 +5,7 @@
 //  Created by Mahmoud Safar on 2/5/17.
 //  Copyright © 2017 Mahmoud Safar. All rights reserved.
 //
+//This file has still the evaluate function being worked on for TAPlus, TAMinus, TAMultiply, TADivide; And list(). Both of these functions are recursively done.
 
 #ifndef HW1_1_hpp
 #define HW1_1_hpp
