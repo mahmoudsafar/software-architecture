@@ -1,12 +1,12 @@
 //
-//  HW1-1.cpp
+//  TATypes.cpp
 //  EECE 437
-//  THIS IS A TEST FILE
+//
 //  Created by Mahmoud Safar on 2/5/17.
 //  Copyright © 2017 Mahmoud Safar. All rights reserved.
 //
 
-#include "HW1-1.hpp"
+#include "TATypes.hpp"
 #include <iostream>
 using namespace std;
 
