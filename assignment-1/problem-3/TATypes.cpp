@@ -64,7 +64,9 @@ int main() {
 //   // cout << s2.value << endl;
 //    
     
-    TAArray<TAInt> a( "a", 10);
+    
+    TAConstant N(14);
+    TAArray<TAInt> a( "a", N);
     
     
     cout << a.size << endl;
