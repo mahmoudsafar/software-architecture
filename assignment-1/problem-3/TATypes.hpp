@@ -49,30 +49,13 @@ public:
 };
 
 
-template <class T>
-class TAArray : public TASuper
-{
-   public:
-    string name;
-    int size;
-    T* array;
-    
 
-    TAArray ( string x, int s)
-    {
-        array = new T[s];
-        size = s;
-        name = x;
-    }
-    
-    
-    
-    
-};
 
 
 
 //Types
+
+
 
 
 class TABool : public TASuper
@@ -202,7 +185,43 @@ public:
 };
 
 
+class TAConstant : public TAInt
+{
+public:
+    TAConstant(int x)
+    {
+        value = x;
+    }
+    
+    virtual void set()
+    {
+       //Should Not do anything.
+    }
+    
+    
+    
+};
 
+template <class T>
+class TAArray : public TASuper
+{
+public:
+    string name;
+    int size;
+    T* array;
+    
+    
+    TAArray ( string x, TAInt s)
+    {
+        array = new T[s.evaluate()];
+        size = s.evaluate();
+        name = x;
+    }
+    
+    
+    
+    
+};
 
 
 
