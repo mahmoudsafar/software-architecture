@@ -5,6 +5,11 @@
 //  Created by Mahmoud Safar on 2/5/17.
 //  Copyright © 2017 Mahmoud Safar. All rights reserved.
 //
+//Modification was implemented which is seperating each of TAPlus, TAMinus, TAMultiply, TADivide into 
+//two classes each concerned with either TAInt or TADouble.
+//
+//Other than that, for problem 3, a super class was implemented to have the TATypes as children so that TAPair 
+//would be functional.
 
 #ifndef TATypes_hpp
 #define TATypes_hpp
