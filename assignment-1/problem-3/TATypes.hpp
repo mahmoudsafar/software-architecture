@@ -16,7 +16,7 @@
 
 using namespace std;
 
-
+//Super Class to relate all objects to be used in pairs
 class TASuper
 {
 public:
@@ -195,7 +195,7 @@ public:
     
     virtual void set()
     {
-       //Should Not do anything.
+       //Should Not do anything. Since it is a constant, so the number is set at first and cannot be changed
     }
     
     
@@ -279,7 +279,6 @@ public:
     }
     virtual double evaluate()
     {
-//        input->evaluate();  // Recursive process to re evaluate previous inputs
         value = ceil(input->evaluate());
         return value;
     }
@@ -305,7 +304,6 @@ public:
     }
     virtual double evaluate()
     {
-//        input->evaluate();
         value = floor(input->evaluate());
         return value;
     }
